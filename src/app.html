@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Speak</title>
+    <link rel='stylesheet' href="./style.css">
+    <style>
+        textarea{
+            width:80%;
+            display:block;
+            margin:1rem;
+            height: 10vh;
+            padding: 1rem;
+        }
+        #output{
+            border: 1px solid black;
+            height:10vh;
+            width:80%;
+            margin:1rem;
+            padding:1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+    <h1>Banana Talk</h1>
+    </nav>
+    <image class="minion-image" src="../Library/minion.png">
+    
+    <div class="input">
+    <textarea id="txt-input" placeholder="Put your english sentence here and we will convert into banana language">
+    </textarea>
+    
+    
+    <!-- <button id="btn-translate">Translate</button> -->
+    <div class="container-center btn" >
+        <button id="btn-translate">Translate to Banana</button>
+    </div>
+
+    <div style="font-size: larger;">Output will come here</div>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
+
+    <footer class="footer"><h1>Lets talk in  Banana Language</h1></footer>
+    
+</body>
+</html>
